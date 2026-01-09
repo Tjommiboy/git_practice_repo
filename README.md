@@ -1,8 +1,8 @@
-Delt øvings‑repository mellom nielsgt-commit og Tjommiboy.
+#Delt øvings‑repository mellom nielsgt-commit og Tjommiboy.
 
 Formålet med dette repoet er å lære og øve på Git og GitHub gjennom praktisk samarbeid.
 
-Mål
+##Mål
 
 Lære grunnleggende Git‑kommandoer
 
@@ -14,11 +14,11 @@ Løse merge conflicts
 
 Forstå samarbeid i et ekte Git‑workflow
 
-Kom i gang (viktig for Niels)
+##Kom i gang (viktig for Niels)
 
 Niels: Du må laste ned (clone) repoet slik at du har en lokal kopi på maskinen din.
 
-Slik gjør du det:
+###Slik gjør du det:
 
 Gå til GitHub-repoet
 
@@ -31,7 +31,7 @@ cd git_practice_repo
 
 Nå har du repoet lokalt og kan begynne å jobbe med branches, commits og pushes 🚀
 
-Arbeidsregler
+##Arbeidsregler
 
 ❌ Ikke jobb direkte på main
 
@@ -41,7 +41,7 @@ Arbeidsregler
 
 ✅ Gi korte, tydelige commit‑meldinger
 
-Forslag til øvelser
+##Forslag til øvelser
 
 Legg til egne filer og merge via PR
 
@@ -51,10 +51,10 @@ Revert en commit
 
 Test squash‑merge
 
-Struktur (kan endres)
+##Struktur (kan endres)
 
 /git-basics
 /js-practice
 /notes
 
-Happy committing 🚀
+###Happy committing 🚀
