@@ -1,6 +1,7 @@
 #Delt øvings‑repository mellom nielsgt-commit og Tjommiboy.
 
 Formålet med dette repoet er å lære og øve på Git og GitHub gjennom praktisk samarbeid.
+- Lære å feile, ikke feil å lære. 
 
 ##Mål
 
