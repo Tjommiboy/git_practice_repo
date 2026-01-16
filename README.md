@@ -1,60 +1,88 @@
-Delt øvings‑repository mellom nielsgt-commit og Tjommiboy.
+Lead Tracker (Chrome Extension)
 
-Formålet med dette repoet er å lære og øve på Git og GitHub gjennom praktisk samarbeid.
+Lead Tracker is a simple Chrome extension that lets you save, manage, and revisit useful links (“leads”) directly from your browser. It works like a lightweight bookmarking tool, designed for quick access and productivity.
 
-Mål
+⸻
 
-Lære grunnleggende Git‑kommandoer
+🚀 Features
+• Save the current tab URL with one click
+• Manually add custom links
+• View all saved leads in a clean list
+• Open saved leads in new tabs
+• Delete all saved leads with a single action
+• Data persists using localStorage
 
-Jobbe med branches
+⸻
 
-Lage og gjennomgå Pull Requests
+🧩 How It Works
+• URLs are stored locally in the browser using localStorage
+• The extension popup provides buttons to:
+• Save the active Chrome tab
+• Save manually entered URLs
+• Clear all saved leads
+• Saved leads are rendered dynamically in the popup
 
-Løse merge conflicts
+⸻
 
-Forstå samarbeid i et ekte Git‑workflow
+🛠️ Technologies Used
+• HTML
+• CSS
+• JavaScript
+• Chrome Extensions API
+• localStorage
 
-Kom i gang (viktig for Niels)
+⸻
 
-Niels: Du må laste ned (clone) repoet slik at du har en lokal kopi på maskinen din.
+📦 Installation (Local Development) 1. Clone or download this repository 2. Open Google Chrome 3. Navigate to chrome://extensions/ 4. Enable Developer mode (top right) 5. Click Load unpacked 6. Select the project folder 7. The Lead Tracker extension will appear in your browser
 
-Slik gjør du det:
+⸻
 
-Gå til GitHub-repoet
+📁 Project Structure
 
-Klikk på Code → kopier HTTPS-lenken
+lead-tracker/
+├── index.html
+├── index.css
+├── index.js
+├── manifest.json
+└── README.md
 
-Åpne terminalen og kjør:
+⸻
 
-git clone https://github.com/BRUKERNAVN/git_practice_repo.git
-cd git_practice_repo
+🧠 Learning Purpose
 
-Nå har du repoet lokalt og kan begynne å jobbe med branches, commits og pushes 🚀
+This project is ideal for learning:
+• DOM manipulation
+• Event listeners
+• Working with localStorage
+• Chrome Extension basics
+• Building small, practical JavaScript tools
 
-Arbeidsregler
+⸻
 
-❌ Ikke jobb direkte på main
+🔒 Permissions
 
-✅ Lag alltid en ny branch for endringer
+The extension uses minimal permissions:
+• tabs – to capture the active tab URL
 
-✅ Bruk Pull Requests for å merge til main
+No external data is collected or shared.
 
-✅ Gi korte, tydelige commit‑meldinger
+⸻
 
-Forslag til øvelser
+📌 Future Improvements (Optional)
+• Delete individual leads
+• Tag or categorize links
+• Sync across devices
+• Export / import leads
+• Search and filter functionality
 
-Legg til egne filer og merge via PR
+⸻
 
-Rediger samme fil fra to branches for å øve på conflicts
+👤 Author
 
-Revert en commit
+Created as a learning project to explore JavaScript and Chrome Extensions.
 
-Test squash‑merge
+⸻
 
-Struktur (kan endres)
+📄 License
 
-/git-basics
-/js-practice
-/notes
-
-Happy committing 🚀
+This project is open-source and free to use for educational purposes.
